@@ -9,6 +9,7 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "inertiajs/inertia-laravel": "^0.5.2",
+        "google/cloud-translate": "^1.12",
         "laravel/framework": "^8.75",
         "laravel/jetstream": "^2.6",
         "laravel/sanctum": "^2.11",
@@ -16,7 +17,8 @@
         "psr/log": "^1.1",
         "shopify/shopify-api": "^1.0",
         "laravel/tinker": "^2.5",
-        "tightenco/ziggy": "^1.0"
+        "tightenco/ziggy": "^1.0",
+        "laravel/horizon": "^5.7"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
