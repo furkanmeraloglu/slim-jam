@@ -55,12 +55,6 @@ services:
             test: ["CMD", "redis-cli", "ping"]
             retries: 3
             timeout: 5s
-    memcached:
-        image: 'memcached:alpine'
-        ports:
-            - '11211:11211'
-        networks:
-            - sail
     mailhog:
         image: 'mailhog/mailhog:latest'
         ports:
