@@ -5,6 +5,8 @@ Slim Jam is a project led and launched by [Uğur Arıcı](https://github.com/ugu
 
 Slim Jam is a Laravel project aims to ensure Shopify integration. Slim Jam fetches product details as an Excel spreadsheet and stores all relevant data regarding the products both to Laravel database and the associated Shopify Store. It can also translate product names and headers right along with its integration to Google Cloud translation service API. Slim Jam utilizes queued jobs provided by Redis and benefits Horizon as a productive monitoring toolkit. Laravel Jetstream is utilized as a starter kit and authentication scaffolding. InertiaJs and VueJs are used for the front-end.
 
+Different from the original copy of the project, this version also includes Laravel test suit provided by PEST. Alongside with the general logic test, some functions and API connections will also be tested via [Mocking](https://pestphp.com/docs/plugins/mock) and HTTP_Fakes features of Laravel and PEST. 
+
 ### Libraries / Packages
 
 - [PHPSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet)
@@ -12,6 +14,7 @@ Slim Jam is a Laravel project aims to ensure Shopify integration. Slim Jam fetch
 - [Shopify API](https://github.com/Shopify/shopify-php-api)
 - [Laravel Horizon](https://laravel.com/docs/7.x/horizon)
 - [Laravel Jetstream with Inertia](https://jetstream.laravel.com/2.x/introduction.html)
+- Laravel [PEST](https://pestphp.com/docs/installation) for test suite instead of PhpUnit. 
 
 This project also utilizes some useful dev packages in order to increase the productivity of the development period. These are: 
 - [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper)
